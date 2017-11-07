@@ -20,6 +20,8 @@ Arrays
 
 Collections
 * [each](http://underscorejs.org/#each)
+* [filter](http://underscorejs.org/#filter)
+* [reject](http://underscorejs.org/#reject)
 
 
 Functions
