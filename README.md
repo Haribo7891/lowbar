@@ -18,6 +18,7 @@ Arrays
 
 
 Collections
+* [each](http://underscorejs.org/#each)
 
 
 Functions
