@@ -15,6 +15,7 @@ ___
 Arrays
 * [first](http://underscorejs.org/#first)
 * [last](http://underscorejs.org/#last)
+* [indexOf](http://underscorejs.org/#indexOf)
 
 
 Collections
