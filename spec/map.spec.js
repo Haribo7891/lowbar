@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../collections/map');
+const _ = require('../collectionFunctions/map');
 
 describe('#map', () => {
   it('Exists', () => {

@@ -1,6 +1,6 @@
 const _ = {};
-const { each } = require('../collections/each');
-const { identity } = require('../utility/identity');
+const { each } = require('../collectionFunctions/each');
+const { identity } = require('../utilityFunctions/identity');
 
 _.map = function (arr, iteratee) {
   const newIteratee = iteratee || identity;

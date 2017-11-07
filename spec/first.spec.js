@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../arrays/first');
+const _ = require('../arrayFunctions/first');
 
 describe('#first', () => {
   it('Exists', () => {

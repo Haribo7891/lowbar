@@ -1,7 +1,7 @@
 const _ = {};
 
-const { indexOf } = require('../arrays/indexOf');
-const { each } = require('../collections/each');
+const { indexOf } = require('../arrayFunctions/indexOf');
+const { each } = require('../collectionFunctions/each');
 
 _.uniq = function (arr, isSorted) {
   if (!Array.isArray(arr) && typeof arr !== 'string') return [];
