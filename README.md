@@ -22,6 +22,7 @@ Arrays
 Collections
 * [each](http://underscorejs.org/#each)
 * [filter](http://underscorejs.org/#filter)
+* [map](http://underscorejs.org/#map)
 * [reject](http://underscorejs.org/#reject)
 
 
