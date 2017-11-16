@@ -12,8 +12,10 @@ ___
 
 ## Lowbar Methods
 
+Please find below the list of Functions that have been implemented. Clicking the links will take you through to the official Underscore.js documentation. 
+
 Array Functions
-* [difference](http://underscorejs.org/#difference)
+* [difference](http://underscorejs.org/#difference) // -- // [My Version](arrayFunctions/difference.js)
 * [first](http://underscorejs.org/#first)
 * [flatten](http://underscorejs.org/#flatten)
 * [indexOf](http://underscorejs.org/#indexOf)
