@@ -1,6 +1,9 @@
 const _ = {};
 
-_.negate = function () {
+_.negate = function (predicate) {
+  return function () {
+    return !predicate.apply(this, arguments);
+  };
 };
 
 if (typeof module !== 'undefined') {
