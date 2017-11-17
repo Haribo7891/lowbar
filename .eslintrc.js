@@ -59,6 +59,6 @@ module.exports = {
       "anonymous": "always",
       "named": "always",
       "asyncArrow": "always"
-    }],
+    }]
   }
 };
