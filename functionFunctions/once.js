@@ -1,6 +1,13 @@
 const _ = {};
 
-_.once = function () {
+_.once = function (func) {
+  let flag = true;
+  return () => {
+    if (flag) {
+      flag = false;
+      return func.apply(this, arguments);
+    }
+  };
 };
 
 if (typeof module !== 'undefined') {
