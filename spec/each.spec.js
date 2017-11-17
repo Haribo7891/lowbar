@@ -8,7 +8,7 @@ describe('#each', () => {
   });
   it('Calls the iteratee for each item in an array', () => {
     const iteratee = sinon.spy();
-    const array = [1,2,3,4,5];
+    const array = [ 1, 2, 3, 4, 5 ];
     _.each(array, iteratee);
     expect(iteratee.callCount).to.equal(5);
   });
@@ -20,7 +20,7 @@ describe('#each', () => {
   });
   it('Calls the iteratee for each item in an object', () => {
     const iteratee = sinon.spy();
-    const object = {a:1, b:2, c:3};
+    const object = { a: 1, b: 2, c: 3 };
     _.each(object, iteratee);
     expect(iteratee.callCount).to.equal(3);
   });
@@ -40,8 +40,8 @@ describe('#each', () => {
   });
   it('Binds the object when passed context', () => {
     let petType = 'dogs';
-    const petCount = function(item) {petType = context[item] + ' ' + petType;};
-    const context = [2,3,4,5];
+    const petCount = function (item) { petType = context[item] + ' ' + petType; };
+    const context = [ 2, 3, 4, 5 ];
     _.each([2], petCount, context);
     expect(petType).to.equal('4 dogs');
   });

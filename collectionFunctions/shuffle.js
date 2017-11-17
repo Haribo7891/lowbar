@@ -6,7 +6,7 @@ _.shuffle = function (list) {
   let index = arr.length;
   let randomItem;
   let temp;
-  while(index) {
+  while (index) {
     randomItem = Math.floor(Math.random() * index);
     index--;
     temp = arr[index];

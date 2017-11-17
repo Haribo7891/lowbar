@@ -6,12 +6,12 @@ describe('#first', () => {
     expect(_.first).to.be.a('function');
   });
   it('Returns the first element of an array', () => {
-    const arr = ['a','b','c','d','e'];
+    const arr = [ 'a', 'b', 'c', 'd', 'e' ];
     expect(_.first(arr)).to.equal('a');
   });
   it('Returns the first n elements of an array', () => {
-    const arr = ['a','b','c','d','e'];
-    expect(_.first(arr, 3)).to.eql(['a', 'b', 'c']);
+    const arr = [ 'a', 'b', 'c', 'd', 'e' ];
+    expect(_.first(arr, 3)).to.eql([ 'a', 'b', 'c' ]);
   });
   it('Returns the first n elements of a string', () => {
     const arr = 'abcde';
@@ -19,7 +19,7 @@ describe('#first', () => {
   });
   it('Returns undefined for invalid arguments', () => {
     expect(_.first(123)).to.equal(undefined);
-    expect(_.first({a:1, b:2, c:3})).to.equal(undefined);
+    expect(_.first({ a: 1, b: 2, c: 3 })).to.equal(undefined);
     expect(_.first(true)).to.equal(undefined);
     expect(_.first()).to.equal(undefined);
   });

@@ -2,7 +2,7 @@ const _ = {};
 const { each } = require('./each');
 
 _.extend = function (obj) {
-  each(arguments, additionalObjects => {
+  each(arguments, (additionalObjects) => {
     each(additionalObjects, (value, key) => {
       obj[key] = value;
     });

@@ -2,9 +2,9 @@ const _ = {};
 
 _.contains = function (list, value, fromIndex) {
   fromIndex = fromIndex || 0;
-  if(list && list.length) {
+  if (list && list.length) {
     for (let i = fromIndex; i < list.length; i++) {
-      if(list[i] === value) return true;
+      if (list[i] === value) return true;
     }
   } else if (typeof list === 'object') {
     for (let key in list) {

@@ -6,7 +6,7 @@ _.reduce = function (list, iteratee, memo) {
   iteratee = iteratee || identity;
   let noMemo = memo === undefined;
   each(list, (item, index, list) => {
-    if(noMemo) {
+    if (noMemo) {
       memo = item;
       noMemo = false;
     } else {
