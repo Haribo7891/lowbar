@@ -58,26 +58,14 @@ Please find below the list of Functions that have been implemented. Clicking the
   - [My Version](arrayFunctions/first.js)
   - [My TDD](spec/first.spec.js)
   - [Official Docs](http://underscorejs.org/#first) 
-* ***_.flatten***
-  - [My Version](arrayFunctions/flatten.js)
-  - [My TDD](spec/flatten.spec.js)
-  - [Official Docs](http://underscorejs.org/#flatten) 
 * ***_.indexOf***
   - [My Version](arrayFunctions/indexOf.js)
   - [My TDD](spec/indexOf.spec.js)
   - [Official Docs](http://underscorejs.org/#indexOf) 
-* ***_.intersection***
-  - [My Version](arrayFunctions/intersection.js)
-  - [My TDD](spec/intersection.spec.js)
-  - [Official Docs](http://underscorejs.org/#intersection) 
 * ***_.last***
   - [My Version](arrayFunctions/last.js)
   - [My TDD](spec/last.spec.js)
   - [Official Docs](http://underscorejs.org/#last) 
-* ***_.sortedIndex***
-  - [My Version](arrayFunctions/sortedIndex.js)
-  - [My TDD](spec/sortedIndex.spec.js)
-  - [Official Docs](http://underscorejs.org/#sortedIndex) 
 * ***_.uniq***
   - [My Version](arrayFunctions/uniq.js)
   - [My TDD](spec/uniq.spec.js)
@@ -152,10 +140,6 @@ Please find below the list of Functions that have been implemented. Clicking the
   - [My Version](functionFunctions/delay.js)
   - [My TDD](spec/delay.spec.js)
   - [Official Docs](http://underscorejs.org/#delay) 
-* ***_.memoize***
-  - [My Version](functionFunctions/memoize.js)
-  - [My TDD](spec/memoize.spec.js)
-  - [Official Docs](http://underscorejs.org/#memoize) 
 * ***_.negate***
   - [My Version](functionFunctions/negate.js)
   - [My TDD](spec/negate.spec.js)
@@ -164,14 +148,6 @@ Please find below the list of Functions that have been implemented. Clicking the
   - [My Version](functionFunctions/once.js)
   - [My TDD](spec/once.spec.js)
   - [Official Docs](http://underscorejs.org/#once) 
-* ***_.partial***
-  - [My Version](functionFunctions/partial.js)
-  - [My TDD](spec/partial.spec.js)
-  - [Official Docs](http://underscorejs.org/#partial) 
-* ***_.throttle***
-  - [My Version](functionFunctions/throttle.js)
-  - [My TDD](spec/throttle.spec.js)
-  - [Official Docs](http://underscorejs.org/#throttle) 
 
 
 ### Object Functions
