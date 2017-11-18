@@ -1,6 +1,6 @@
 const _ = {};
-const { each } = require('../collectionFunctions/each');
 const { identity } = require('../utilityFunctions/identity');
+const { each } = require('../collectionFunctions/each');
 
 _.filter = function (arr, predicate = identity) {
   const filteredArr = [];

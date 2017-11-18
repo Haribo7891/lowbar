@@ -1,7 +1,6 @@
 const _ = {};
 
-_.indexOf = function (arr, value, isSorted) {
-  isSorted = isSorted || false;
+_.indexOf = function (arr, value, isSorted = false) {
   if (Array.isArray(arr) || typeof arr === 'string') {
     if (!isSorted) { 
       for (let i = 0; i < arr.length; i++) {
