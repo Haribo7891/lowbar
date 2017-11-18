@@ -7,7 +7,7 @@ _.each = function (list, iteratee, context) {
       iteratee.call(newContext, list[i], i, list);
     }
   } else {
-    for (let key in list) {
+    for (const key in list) {
       iteratee.call(newContext, list[key], key, list);
     }
   }

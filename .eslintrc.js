@@ -16,7 +16,7 @@ module.exports = {
     "no-var": ["error"],
     "no-multi-spaces": ["error"],
     "no-extra-semi": ["error"],
-    // "prefer-const": ["error"],
+    "prefer-const": ["error"],
     "semi": ["error", "always"],
     "object-curly-spacing": ["error", "always"],
     "space-before-blocks": ["error", "always"],

@@ -8,7 +8,7 @@ _.every = function (list, predicate) {
       if (!predicate(list[i], i, list)) return false;
     }
   } else if (typeof list === 'object') {
-    for (let key in list) {
+    for (const key in list) {
       if (!predicate(list[key], key, list)) return false;
     }
   }

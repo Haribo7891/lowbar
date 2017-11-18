@@ -7,7 +7,7 @@ _.contains = function (list, value, fromIndex) {
       if (list[i] === value) return true;
     }
   } else if (typeof list === 'object') {
-    for (let key in list) {
+    for (const key in list) {
       if (list[key] === value) return true;
     }
   }

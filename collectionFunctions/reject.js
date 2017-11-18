@@ -4,7 +4,7 @@ const { identity } = require('../utilityFunctions/identity');
 
 _.reject = function (arr, predicate) {
   const newPredicate = predicate || identity;
-  let filteredArr = [];
+  const filteredArr = [];
   each(arr, (item, i, arr) => {
     if (!newPredicate(item, i, arr)) filteredArr.push(item);
   });
