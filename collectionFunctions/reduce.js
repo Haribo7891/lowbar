@@ -2,8 +2,7 @@ const _ = {};
 const { identity } = require('../utilityFunctions/identity');
 const { each } = require('./each');
 
-_.reduce = function (list, iteratee, memo) {
-  iteratee = iteratee || identity;
+_.reduce = function (list, iteratee = identity, memo) {
   let noMemo = memo === undefined;
   each(list, (item, index, list) => {
     if (noMemo) {

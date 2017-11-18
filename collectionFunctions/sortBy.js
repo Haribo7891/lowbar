@@ -2,8 +2,7 @@ const _ = {};
 const { identity } = require('../utilityFunctions/identity');
 const { map } = require('./map');
 
-_.sortBy = function (list, iteratee) {
-  iteratee = iteratee || identity;
+_.sortBy = function (list, iteratee = identity) {
   const arr = map(list);
   const compare = (a, b) => {
     if (a < b) {

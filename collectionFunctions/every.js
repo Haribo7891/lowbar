@@ -1,8 +1,7 @@
 const _ = {};
 const { identity } = require('../utilityFunctions/identity');
 
-_.every = function (list, predicate) {
-  predicate = predicate || identity;
+_.every = function (list, predicate = identity) {
   if (list && list.length) {
     for (let i = 0; i < list.length; i++) {
       if (!predicate(list[i], i, list)) return false;
