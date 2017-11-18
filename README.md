@@ -4,6 +4,7 @@ My TDD reimplementation of some of the Functions from the popular and useful [Un
 ___
 
 ## Setup
+
 To run this project, you will need ```node.js``` (v8.9.1) and ```npm``` (v5.5.1) installed.
 
 1. To check whether you have ```node.js``` installed, run the following code in your terminal: 
@@ -21,9 +22,10 @@ npm -v
 ___
 
 ##  Installation
+
 1. Clone this repo to your local machine:
 ```
-git clone https://github.com/haribo7891/lowbar.git
+git clone https://github.com/Haribo7891/lowbar.git
 ```
 2. Install the dependencies:
 ```
@@ -34,7 +36,9 @@ npm install
 npm run
 ```
 ___
+
 ## Dependencies
+
 The following dependencies were used in the making of this project:
 * [Mocha](https://mochajs.org) - The testing framework.
 * [Chai](http://chaijs.com) - The assertion library.
@@ -46,139 +50,149 @@ ___
 Please find below the list of Functions that have been implemented. Clicking the links will take you through to either ```My Version```, ```My TDD``` or the ```official Underscore.js documentation``` for that particular function. 
 
 ### Array Functions
-* _.difference
+* ***_.difference***
   - [My Version](arrayFunctions/difference.js)
   - [My TDD](spec/difference.spec.js)
   - [Official Docs](http://underscorejs.org/#difference) 
-* _.first
+* ***_.first***
   - [My Version](arrayFunctions/first.js)
   - [My TDD](spec/first.spec.js)
   - [Official Docs](http://underscorejs.org/#first) 
-* _.flatten
+* ***_.flatten***
   - [My Version](arrayFunctions/flatten.js)
   - [My TDD](spec/flatten.spec.js)
   - [Official Docs](http://underscorejs.org/#flatten) 
-* _.indexOf
+* ***_.indexOf***
   - [My Version](arrayFunctions/indexOf.js)
   - [My TDD](spec/indexOf.spec.js)
   - [Official Docs](http://underscorejs.org/#indexOf) 
-* _.intersection
+* ***_.intersection***
   - [My Version](arrayFunctions/intersection.js)
   - [My TDD](spec/intersection.spec.js)
   - [Official Docs](http://underscorejs.org/#intersection) 
-* _.last
+* ***_.last***
   - [My Version](arrayFunctions/last.js)
   - [My TDD](spec/last.spec.js)
   - [Official Docs](http://underscorejs.org/#last) 
-* _.sortedIndex
+* ***_.sortedIndex***
   - [My Version](arrayFunctions/sortedIndex.js)
   - [My TDD](spec/sortedIndex.spec.js)
   - [Official Docs](http://underscorejs.org/#sortedIndex) 
-* _.uniq
+* ***_.uniq***
   - [My Version](arrayFunctions/uniq.js)
   - [My TDD](spec/uniq.spec.js)
   - [Official Docs](http://underscorejs.org/#uniq) 
-* _.zip
+* ***_.zip***
   - [My Version](arrayFunctions/zip.js)
   - [My TDD](spec/zip.spec.js)
   - [Official Docs](http://underscorejs.org/#zip) 
 
 
 ### Collection Functions (Arrays or Objects)
-* _.contains
+* ***_.contains***
   - [My Version](collectionFunctions/contains.js)
   - [My TDD](spec/contains.spec.js)
   - [Official Docs](http://underscorejs.org/#contains) 
-* _.each
+* ***_.each***
   - [My Version](collectionFunctions/each.js)
   - [My TDD](spec/each.spec.js)
   - [Official Docs](http://underscorejs.org/#each) 
-* _.every
+* ***_.every***
   - [My Version](collectionFunctions/every.js)
   - [My TDD](spec/every.spec.js)
   - [Official Docs](http://underscorejs.org/#every) 
-* _.extend
+* ***_.extend***
   - [My Version](collectionFunctions/extend.js)
   - [My TDD](spec/extend.spec.js)
   - [Official Docs](http://underscorejs.org/#extend) 
-* _.filter
+* ***_.filter***
   - [My Version](collectionFunctions/filter.js)
   - [My TDD](spec/filter.spec.js)
   - [Official Docs](http://underscorejs.org/#filter) 
-* _.invoke
+* ***_.invoke***
   - [My Version](collectionFunctions/invoke.js)
   - [My TDD](spec/invoke.spec.js)
   - [Official Docs](http://underscorejs.org/#invoke) 
-* _.map
+* ***_.map***
   - [My Version](collectionFunctions/map.js)
   - [My TDD](spec/map.spec.js)
   - [Official Docs](http://underscorejs.org/#map) 
-* _.pluck
+* ***_.pluck***
   - [My Version](collectionFunctions/pluck.js)
   - [My TDD](spec/pluck.spec.js)
   - [Official Docs](http://underscorejs.org/#pluck) 
-* _.reduce
+* ***_.reduce***
   - [My Version](collectionFunctions/reduce.js)
   - [My TDD](spec/reduce.spec.js)
   - [Official Docs](http://underscorejs.org/#reduce) 
-* _.reject
+* ***_.reject***
   - [My Version](collectionFunctions/reject.js)
   - [My TDD](spec/reject.spec.js)
   - [Official Docs](http://underscorejs.org/#reject) 
-* _.shuffle
+* ***_.shuffle***
   - [My Version](collectionFunctions/shuffle.js)
   - [My TDD](spec/shuffle.spec.js)
   - [Official Docs](http://underscorejs.org/#shuffle) 
-* _.some
+* ***_.some***
   - [My Version](collectionFunctions/some.js)
   - [My TDD](spec/some.spec.js)
   - [Official Docs](http://underscorejs.org/#some) 
-* _.sortBy
+* ***_.sortBy***
   - [My Version](collectionFunctions/sortBy.js)
   - [My TDD](spec/sortBy.spec.js)
   - [Official Docs](http://underscorejs.org/#sortBy) 
-* _.where
+* ***_.where***
   - [My Version](collectionFunctions/where.js)
   - [My TDD](spec/where.spec.js)
   - [Official Docs](http://underscorejs.org/#where) 
 
 
 ### Function (uh, ahem) Functions
-* _.delay
+* ***_.delay***
   - [My Version](functionFunctions/delay.js)
   - [My TDD](spec/delay.spec.js)
   - [Official Docs](http://underscorejs.org/#delay) 
-* _.memoize
+* ***_.memoize***
   - [My Version](functionFunctions/memoize.js)
   - [My TDD](spec/memoize.spec.js)
   - [Official Docs](http://underscorejs.org/#memoize) 
-* _.negate
+* ***_.negate***
   - [My Version](functionFunctions/negate.js)
   - [My TDD](spec/negate.spec.js)
   - [Official Docs](http://underscorejs.org/#negate) 
-* _.once
+* ***_.once***
   - [My Version](functionFunctions/once.js)
   - [My TDD](spec/once.spec.js)
   - [Official Docs](http://underscorejs.org/#once) 
-* _.partial
+* ***_.partial***
   - [My Version](functionFunctions/partial.js)
   - [My TDD](spec/partial.spec.js)
   - [Official Docs](http://underscorejs.org/#partial) 
-* _.throttle
+* ***_.throttle***
   - [My Version](functionFunctions/throttle.js)
   - [My TDD](spec/throttle.spec.js)
   - [Official Docs](http://underscorejs.org/#throttle) 
 
 
 ### Object Functions
-* _.defaults
+* ***_.defaults***
   - [My Version](objectFunctions/defaults.js)
   - [My TDD](spec/defaults.spec.js)
   - [Official Docs](http://underscorejs.org/#defaults) 
 
 
 ### Utility Functions
-* _.identity
+* ***_.identity***
   - [My Version](utilityFunctions/identity.js)
   - [My TDD](spec/identity.spec.js)
   - [Official Docs](http://underscorejs.org/#identity) 
+___
+
+## Author
+
+[Harry Crank](https://github.com/Haribo7891)
+___
+
+## Acknowledgments
+
+Inspired by [Underscore.js](http://underscorejs.org/) library and completed as part of a project at [Northcoders](https://northcoders.com/) bootcamp.
