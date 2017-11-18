@@ -1,6 +1,9 @@
 const _ = {};
 
-_.delay = function () {
+_.delay = function (func, wait = 0, ...args) {
+  setTimeout(() => {
+    func.apply(null, args);
+  }, wait);
 };
 
 if (typeof module !== 'undefined') {
