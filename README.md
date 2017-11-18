@@ -1,6 +1,6 @@
 # Lowbar
 
-My TDD reimplementation of some of the Functions from the popular and useful [Underscore library](http://underscorejs.org/).
+My TDD reimplementation of some of the Functions from the popular and useful [Underscore.js library](http://underscorejs.org/).
 ___
 
 ## Setup
