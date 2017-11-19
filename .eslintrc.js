@@ -5,7 +5,6 @@ module.exports = {
     "es6": true,
     "node": true,
     "jasmine": true,
-    "node": true,
     "mocha": true
   },
   "extends": "eslint:recommended",
