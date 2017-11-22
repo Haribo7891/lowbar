@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 const sinon = require('sinon');
-const _ = require('../collectionFunctions/each');
+const _ = require('../../functions/collectionFunctions/each');
 
 describe('#each', () => {
   it('Exists', () => {

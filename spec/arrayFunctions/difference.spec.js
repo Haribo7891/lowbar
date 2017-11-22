@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../arrayFunctions/difference');
+const _ = require('../../functions/arrayFunctions/difference');
 
 describe('#difference', () => {
   it('Exists', () => {

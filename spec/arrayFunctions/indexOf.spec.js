@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../arrayFunctions/indexOf');
+const _ = require('../../functions/arrayFunctions/indexOf');
 
 describe('#indexOf', () => {
   it('Exists', () => {

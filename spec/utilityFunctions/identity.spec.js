@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../utilityFunctions/identity');
+const _ = require('../../functions/utilityFunctions/identity');
 
 describe('#identity', () => {
   it('Exists', () => {

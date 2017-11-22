@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../collectionFunctions/invoke');
+const _ = require('../../functions/collectionFunctions/invoke');
 
 describe('#invoke', () => {
   it('Exists', () => {

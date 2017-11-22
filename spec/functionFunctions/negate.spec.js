@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
-const _ = require('../functionFunctions/negate');
-const { some } = require('../collectionFunctions/some');
+const _ = require('../../functions/functionFunctions/negate');
+const { some } = require('../../functions/collectionFunctions/some');
 
 describe('#negate', () => {
   it('Exists', () => {

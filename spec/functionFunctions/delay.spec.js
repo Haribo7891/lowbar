@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 const sinon = require('sinon');
-const _ = require('../functionFunctions/delay');
+const _ = require('../../functions/functionFunctions/delay');
 
 describe('#delay', () => {
   beforeEach(() => {

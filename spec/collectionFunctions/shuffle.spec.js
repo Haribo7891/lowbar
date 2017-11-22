@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../collectionFunctions/shuffle');
+const _ = require('../../functions/collectionFunctions/shuffle');
 
 describe('#shuffle', () => {
   it('Exists', () => {

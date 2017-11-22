@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../objectFunctions/defaults');
+const _ = require('../../functions/objectFunctions/defaults');
 
 describe('#defaults', () => {
   it('Exists', () => {

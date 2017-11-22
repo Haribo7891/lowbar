@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../collectionFunctions/reject');
+const _ = require('../../functions/collectionFunctions/reject');
 
 describe('#reject', () => {
   it('Exists', () => {

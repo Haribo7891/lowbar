@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../collectionFunctions/sortBy');
+const _ = require('../../functions/collectionFunctions/sortBy');
 
 describe('#sortBy', () => {
   it('Exists', () => {

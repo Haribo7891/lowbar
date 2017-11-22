@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 const sinon = require('sinon');
-const _ = require('../functionFunctions/once');
+const _ = require('../../functions/functionFunctions/once');
 
 describe('#once', () => {
   it('Exists', () => {

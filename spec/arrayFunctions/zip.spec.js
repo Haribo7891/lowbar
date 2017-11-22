@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../arrayFunctions/zip');
+const _ = require('../../functions/arrayFunctions/zip');
 
 describe('#zip', () => {
   it('Exists', () => {

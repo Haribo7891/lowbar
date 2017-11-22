@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../arrayFunctions/uniq');
+const _ = require('../../functions/arrayFunctions/uniq');
 
 describe('#uniq', () => {
   it('Exists', () => {

@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../collectionFunctions/reduce');
+const _ = require('../../functions/collectionFunctions/reduce');
 
 describe('#reduce', () => {
   it('Exists', () => {

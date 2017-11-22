@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../collectionFunctions/where');
+const _ = require('../../functions/collectionFunctions/where');
 
 describe('#where', () => {
   it('Exists', () => {

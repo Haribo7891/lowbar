@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../collectionFunctions/every');
+const _ = require('../../functions/collectionFunctions/every');
 
 describe('#every', () => {
   it('Exists', () => {
