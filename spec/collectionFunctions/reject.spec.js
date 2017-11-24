@@ -26,4 +26,12 @@ describe('#reject', () => {
     expect(_.reject(undefined, predicate)).to.eql([]);
     expect(_.reject(5, predicate)).to.eql([]);
   });
+  it('Binds the predicate when passed context', () => {
+    const input = [ 1, 2, 3, 4, 5 ];
+    const predicate = function (item) {
+      return item % this === 0;
+    };
+    const expected = [ 1, 3, 5 ];
+    expect(_.reject(input, predicate, 2)).to.eql(expected);
+  });
 });

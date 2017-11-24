@@ -2,10 +2,10 @@ const _ = {};
 const { identity } = require('../utilityFunctions/identity');
 const { each } = require('../collectionFunctions/each');
 
-_.reject = function (arr, predicate = identity) {
+_.reject = function (arr, predicate = identity, context = this) {
   const filteredArr = [];
   each(arr, (item, i, arr) => {
-    if (!predicate(item, i, arr)) filteredArr.push(item);
+    if (!predicate.call(context, item, i, arr)) filteredArr.push(item);
   });
   return filteredArr;
 };
