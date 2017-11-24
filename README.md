@@ -5,23 +5,23 @@ ___
 
 ## Setup
 
-To run this project, you will need ```node.js``` (v8.9.1) and ```npm``` (v5.5.1) installed.
+To run this project, you will need `node.js` (v8.9.1) and `npm` (v5.5.1) installed.
 
-1. To check whether you have ```node.js``` installed, run the following code in your terminal:
+1. To check whether you have `node.js` installed, run the following code in your terminal:
 
 ``` node
 node -v
 ```
 
-2. To install ```node.js```, please refer to the following [documentation](https://nodejs.org/en/).
+2. To install `node.js`, please refer to the following [documentation](https://nodejs.org/en/).
 
-3. To check whether you have ```npm``` installed, run the following code in your terminal:
+3. To check whether you have `npm` installed, run the following code in your terminal:
 
 ``` node
 npm -v
 ```
 
-4. To install ```npm```, please refer to the following [documentation](https://docs.npmjs.com).
+4. To install `npm`, please refer to the following [documentation](https://docs.npmjs.com).
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 ## Lowbar Methods
 
-Please find below the list of Functions that have been implemented. Clicking the links will take you through to either ```My Version```, ```My TDD``` or the ```official Underscore.js documentation``` for that particular function.
+Please find below the list of Functions that have been implemented. Clicking the links will take you through to either `My Version`, `My TDD` or the `official Underscore.js documentation` for that particular function.
 
 ### Array Functions
 
@@ -162,14 +162,12 @@ Please find below the list of Functions that have been implemented. Clicking the
   * [My TDD](spec/functionFunctions/once.spec.js)
   * [Official Docs](http://underscorejs.org/#once)
 
-
 ### Object Functions
 
 * ***_.defaults***
   * [My Version](functions/objectFunctions/defaults.js)
   * [My TDD](spec/objectFunctions/defaults.spec.js)
   * [Official Docs](http://underscorejs.org/#defaults)
-
 
 ### Utility Functions
 

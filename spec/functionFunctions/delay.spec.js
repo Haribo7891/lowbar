@@ -6,7 +6,7 @@ describe('#delay', () => {
   beforeEach(() => {
     this.clock = sinon.useFakeTimers(); 
   });
-  it('Calls the passed arguments after the wait period', () => {
+  it('Calls the arguments after the wait period', () => {
     const spy = sinon.spy(); 
     _.delay(spy, 500);
     expect(spy.callCount).to.equal(0); 
