@@ -34,10 +34,10 @@ describe('#every', () => {
   });
   it('Binds the predicate when passed context', () => {
     const input = [ 2, 4, 6, 8 ];
-    const iteratee = function (item) {
+    const predicate = function (item) {
       return item % this === 0;
     };
     const expected = true;
-    expect(_.every(input, iteratee, 2)).to.equal(expected);
+    expect(_.every(input, predicate, 2)).to.equal(expected);
   });
 });

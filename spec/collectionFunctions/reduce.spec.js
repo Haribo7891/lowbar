@@ -31,4 +31,13 @@ describe('#reduce', () => {
     const expected = { h: 1, a: 1, r: 2, y: 1 };
     expect(_.reduce(input, createCount, {})).to.eql(expected);
   });
+  it('Binds the iteratee when passed context', () => {
+    const input = [ 2, 4, 6, 8 ];
+    const iteratee = function (acc, item) {
+      acc.push(item * this);
+      return acc;
+    };
+    const expected = [ 4, 8, 12, 16 ];
+    expect(_.reduce(input, iteratee, [], 2)).to.eql(expected);
+  });
 });
