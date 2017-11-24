@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/arrayFunctions/uniq');
 
 describe('#uniq', () => {
-  it('Exists', () => {
-    expect(_.uniq).to.be.a('function');
-  });
   it('Returns the unique values of an UNSORTED array', () => {
     const arr = [ 'e', 'a', 'c', 'b', 'c', 'd', 'e' ];
     const expected = [ 'e', 'a', 'c', 'b', 'd' ];

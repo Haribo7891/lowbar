@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/sortBy');
 
 describe('#sortBy', () => {
-  it('Exists', () => {
-    expect(_.sortBy).to.be.a('function');
-  });
   it('Returns a sorted array based on the iteratee', () => {
     const input = [ 1, 2, 3, 4, 5, 6 ];
     const iteratee = (item) => Math.sin(item);

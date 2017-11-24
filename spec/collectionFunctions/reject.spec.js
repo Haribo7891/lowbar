@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/reject');
 
 describe('#reject', () => {
-  it('Exists', () => {
-    expect(_.reject).to.be.a('function');
-  });
   it('Returns items from strings that don\'t pass the predicate', () => {
     const str = 'YummyHotDog';
     const predicate = ((letter) => letter === letter.toLowerCase());

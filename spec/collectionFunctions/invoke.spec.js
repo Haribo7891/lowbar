@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/invoke');
 
 describe('#invoke', () => {
-  it('Exists', () => {
-    expect(_.invoke).to.be.a('function');
-  });
   it('Returns an array with given method passed on each item', () => {
     const input = [[ 1, 2 ], [ 3, 4 ], [5]];
     const method = 'reverse';

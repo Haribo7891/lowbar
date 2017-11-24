@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/arrayFunctions/indexOf');
 
 describe('#indexOf', () => {
-  it('Exists', () => {
-    expect(_.indexOf).to.be.a('function');
-  });
   it('Returns the first index of the passed value on SORTED lists', () => {
     const arr = [ 1, 2, 3, 4, 4, 5 ];
     expect(_.indexOf(arr, 1)).to.equal(0);

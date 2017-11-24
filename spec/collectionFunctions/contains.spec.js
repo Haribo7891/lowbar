@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/contains');
 
 describe('#contains', () => {
-  it('Exists', () => {
-    expect(_.contains).to.be.a('function');
-  });
   it('Returns TRUE if value is present in a string', () => {
     const string = 'hello';
     const value = 'e';

@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/some');
 
 describe('#some', () => {
-  it('Exists', () => {
-    expect(_.some).to.be.a('function');
-  });
   it('Returns TRUE if some items in a string pass the predicate', () => {
     const list = 'hello';
     const predicate = ((letter) => letter === letter.toLowerCase());

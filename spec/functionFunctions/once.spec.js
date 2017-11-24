@@ -3,9 +3,6 @@ const sinon = require('sinon');
 const _ = require('../../functions/functionFunctions/once');
 
 describe('#once', () => {
-  it('Exists', () => {
-    expect(_.once).to.be.a('function');
-  });
   it('Returns a function that will be at most called once', () => {
     const spy = sinon.spy();
     const func = _.once(spy);

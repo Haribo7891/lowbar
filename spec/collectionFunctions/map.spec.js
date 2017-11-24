@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/map');
 
 describe('#map', () => {
-  it('Exists', () => {
-    expect(_.map).to.be.a('function');
-  });
   it('Returns a new array of the same length', () => {
     const arr = [ 'a', 'b', 'c', 'd', 'e' ];
     expect(_.map(arr).length).to.equal(5);

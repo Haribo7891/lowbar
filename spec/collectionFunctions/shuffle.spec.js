@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/shuffle');
 
 describe('#shuffle', () => {
-  it('Exists', () => {
-    expect(_.shuffle).to.be.a('function');
-  });
   it('Returns a shuffled copy of the input array', () => {
     const arr = [ 1, 2, 3, 4, 5 ];
     expect(_.shuffle(arr).length).to.equal(arr.length);

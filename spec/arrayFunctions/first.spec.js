@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/arrayFunctions/first');
 
 describe('#first', () => {
-  it('Exists', () => {
-    expect(_.first).to.be.a('function');
-  });
   it('Returns the first element of an array', () => {
     const arr = [ 'a', 'b', 'c', 'd', 'e' ];
     expect(_.first(arr)).to.equal('a');

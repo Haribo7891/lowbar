@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/arrayFunctions/zip');
 
 describe('#zip', () => {
-  it('Exists', () => {
-    expect(_.zip).to.be.a('function');
-  });
   it('Returns a merged array when passed arrays of equal length', () => {
     const arr1 = [ 1, 2, 3 ];
     const arr2 = [ 'a', 'b', 'c' ];

@@ -3,9 +3,6 @@ const _ = require('../../functions/functionFunctions/negate');
 const { some } = require('../../functions/collectionFunctions/some');
 
 describe('#negate', () => {
-  it('Exists', () => {
-    expect(_.negate).to.be.a('function');
-  });
   it('Returns the compliment of the given function', () => {
     const predicate = (n) => n % 2 === 0;
     const negated = _.negate(predicate);

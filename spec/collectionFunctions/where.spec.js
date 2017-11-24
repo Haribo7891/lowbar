@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/where');
 
 describe('#where', () => {
-  it('Exists', () => {
-    expect(_.where).to.be.a('function');
-  });
   it('Returns an array of all the values that match the key/value pairs passed in', () => {
     const input = [
       { a: 1, e: 5 },

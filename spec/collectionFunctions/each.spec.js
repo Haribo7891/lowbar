@@ -3,9 +3,6 @@ const sinon = require('sinon');
 const _ = require('../../functions/collectionFunctions/each');
 
 describe('#each', () => {
-  it('Exists', () => {
-    expect(_.each).to.be.a('function');
-  });
   it('Calls the iteratee for each item in an array', () => {
     const iteratee = sinon.spy();
     const array = [ 1, 2, 3, 4, 5 ];

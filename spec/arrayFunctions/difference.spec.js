@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/arrayFunctions/difference');
 
 describe('#difference', () => {
-  it('Exists', () => {
-    expect(_.difference).to.be.a('function');
-  });
   it('Returns an array of values not found in the other array passed in', () => {
     const input = [ 1, 2, 3, 4, 5 ];
     const expected = [ 2, 4 ];

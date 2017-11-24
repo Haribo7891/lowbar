@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/reduce');
 
 describe('#reduce', () => {
-  it('Exists', () => {
-    expect(_.reduce).to.be.a('function');
-  });
   it('Returns a single result from an array of values when passed an accumulator', () => {
     const input = [ 1, 2, 3, 4, 5 ];
     const sum = (acc, num) => acc + num;

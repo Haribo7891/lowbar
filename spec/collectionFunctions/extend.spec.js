@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/collectionFunctions/extend');
 
 describe('#extend', () => {
-  it('Exists', () => {
-    expect(_.extend).to.be.a('function');
-  });
   it('Returns an object when passed additional objects', () => {
     const input = {};
     const extended = { a: 1, b: 2, c: 3 };

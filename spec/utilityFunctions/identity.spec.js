@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/utilityFunctions/identity');
 
 describe('#identity', () => {
-  it('Exists', () => {
-    expect(_.identity).to.be.a('function');
-  });
   it('Returns the same value that is used as the argument', () => {
     const arr = [ 1, 2, 'a', 'b' ];
     const obj = { a: 1, b: 2 };

@@ -2,9 +2,6 @@ const expect = require('chai').expect;
 const _ = require('../../functions/arrayFunctions/last');
 
 describe('#last', () => {
-  it('Exists', () => {
-    expect(_.last).to.be.a('function');
-  });
   it('Returns the last element of an array', () => {
     const arr = [ 'a', 'b', 'c', 'd', 'e' ];
     expect(_.last(arr)).to.equal('e');
