@@ -4,7 +4,11 @@ const _ = require('../../functions/arrayFunctions/first');
 describe('#first', () => {
   it('Returns the first element of an array', () => {
     const arr = [ 'a', 'b', 'c', 'd', 'e' ];
-    expect(_.first(arr)).to.equal('a');
+    expect(_.first(arr)).to.eql(['a']);
+  });
+  it('Returns the first element of a string', () => {
+    const arr = 'abcde';
+    expect(_.first(arr)).to.eql(['a']);
   });
   it('Returns the first n elements of an array', () => {
     const arr = [ 'a', 'b', 'c', 'd', 'e' ];
@@ -12,12 +16,12 @@ describe('#first', () => {
   });
   it('Returns the first n elements of a string', () => {
     const arr = 'abcde';
-    expect(_.first(arr, 3)).to.equal('abc');
+    expect(_.first(arr, 3)).to.eql([ 'a', 'b', 'c' ]);
   });
-  it('Returns undefined for invalid arguments', () => {
-    expect(_.first(123)).to.equal(undefined);
-    expect(_.first({ a: 1, b: 2, c: 3 })).to.equal(undefined);
-    expect(_.first(true)).to.equal(undefined);
-    expect(_.first()).to.equal(undefined);
+  it('Returns an empty array if passed the wrong input', () => {
+    expect(_.first(123)).to.eql([]);
+    expect(_.first(123, 1)).to.eql([]);
+    expect(_.first({ a: 1, b: 2, c: 3 })).to.eql([]);
+    expect(_.first({ a: 1, b: 2, c: 3 }, 1)).to.eql([]);
   });
 });
