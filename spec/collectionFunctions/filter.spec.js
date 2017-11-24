@@ -26,4 +26,12 @@ describe('#filter', () => {
     expect(_.filter(undefined, predicate)).to.eql([]);
     expect(_.filter(5, predicate)).to.eql([]);
   });
+  it('Binds the predicate when passed context', () => {
+    const input = [ 1, 2, 3, 4, 5 ];
+    const predicate = function (item) {
+      return item % this === 0;
+    };
+    const expected = [ 2, 4 ];
+    expect(_.filter(input, predicate, 2)).to.eql(expected);
+  });
 });
