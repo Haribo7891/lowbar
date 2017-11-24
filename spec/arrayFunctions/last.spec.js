@@ -4,7 +4,11 @@ const _ = require('../../functions/arrayFunctions/last');
 describe('#last', () => {
   it('Returns the last element of an array', () => {
     const arr = [ 'a', 'b', 'c', 'd', 'e' ];
-    expect(_.last(arr)).to.equal('e');
+    expect(_.last(arr)).to.eql(['e']);
+  });
+  it('Returns the last element of a string', () => {
+    const arr = 'abcde';
+    expect(_.last(arr)).to.eql(['e']);
   });
   it('Returns the last n elements of an array', () => {
     const arr = [ 'a', 'b', 'c', 'd', 'e' ];
@@ -12,12 +16,12 @@ describe('#last', () => {
   });
   it('Returns the last n elements of a string', () => {
     const arr = 'abcde';
-    expect(_.last(arr, 3)).to.equal('cde');
+    expect(_.last(arr, 3)).to.eql([ 'c', 'd', 'e' ]);
   });
-  it('Returns undefined for invalid arguments', () => {
-    expect(_.last(123)).to.equal(undefined);
-    expect(_.last({ a: 1, b: 2, c: 3 })).to.equal(undefined);
-    expect(_.last(true)).to.equal(undefined);
-    expect(_.last()).to.equal(undefined);
+  it('Returns an empty array if passed the wrong input', () => {
+    expect(_.last(123)).to.eql([]);
+    expect(_.last(123, 1)).to.eql([]);
+    expect(_.last({ a: 1, b: 2, c: 3 })).to.eql([]);
+    expect(_.last({ a: 1, b: 2, c: 3 }, 1)).to.eql([]);
   });
 });
