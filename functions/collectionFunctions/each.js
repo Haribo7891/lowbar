@@ -1,6 +1,7 @@
 const _ = {};
+const { identity } = require('../utilityFunctions/identity');
 
-_.each = function (list, iteratee, context = this) {
+_.each = function (list, iteratee = identity, context = this) {
   if (Array.isArray(list) || typeof list === 'string') {
     for (let i = 0; i < list.length; i++) {
       iteratee.call(context, list[i], i, list);
