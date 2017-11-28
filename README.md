@@ -161,6 +161,10 @@ Please find below the list of Functions that have been implemented. Clicking the
   * [My Version](functions/functionFunctions/once.js)
   * [My TDD](spec/functionFunctions/once.spec.js)
   * [Official Docs](http://underscorejs.org/#once)
+* ***_.throttle***
+  * [My Version](functions/functionFunctions/throttle.js)
+  * [My TDD](spec/functionFunctions/throttle.spec.js)
+  * [Official Docs](http://underscorejs.org/#throttle)
 
 ### Object Functions
 
